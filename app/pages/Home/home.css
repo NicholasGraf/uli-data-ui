@@ -1,0 +1,12 @@
+#tableDemo .table-body {
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+#tableDemo table-row {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#tableDemo table-row:hover {
+  background: #f9f9f9;
+}

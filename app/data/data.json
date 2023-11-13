@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "_id": "6550c97dce6617fb253d7dfa",
+      "uplink": {
+        "DeviceId": "DELTA",
+        "Time": "2023-11-07T12:47:56.566Z",
+        "Data": {
+          "temperature": 27.43,
+          "humidity": 34.11,
+          "pressure": 957.18
+        }
+      }
+    },
+    {
+      "_id": "6550c97dce6617fb253d7dfb",
+      "uplink": {
+        "DeviceId": "DELTA",
+        "Time": "2023-11-08T12:47:56.566Z",
+        "Data": {
+          "temperature": 26.22,
+          "humidity": 34.87,
+          "pressure": 944.21
+        }
+      }
+    },
+    {
+      "_id": "6550c97dce6617fb253d7dfc",
+      "uplink": {
+        "DeviceId": "DELTA",
+        "Time": "2023-11-09T12:47:56.566Z",
+        "Data": {
+          "temperature": 27.31,
+          "humidity": 34.93,
+          "pressure": 946.87
+        }
+      }
+    },
+    {
+      "_id": "6550c97dce6617fb253d7dfd",
+      "uplink": {
+        "DeviceId": "DELTA",
+        "Time": "2023-11-10T12:47:56.566Z",
+        "Data": {
+          "temperature": 27.59,
+          "humidity": 35.01,
+          "pressure": 950.22
+        }
+      }
+    },
+    {
+      "_id": "6550c97dce6617fb253d7dfe",
+      "uplink": {
+        "DeviceId": "DELTA",
+        "Time": "2023-11-11T12:47:56.566Z",
+        "Data": {
+          "temperature": 28.13,
+          "humidity": 35.02,
+          "pressure": 955.74
+        }
+      }
+    }
+  ]
+}
