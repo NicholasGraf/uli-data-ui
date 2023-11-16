@@ -1,6 +1,7 @@
 import { App } from "../components/App.js";
 import { Header } from "../components/Header.js";
 import { PageContainer } from "../components/PageContainer.js";
+import { ContentLoader } from "../components/ContentLoader.js";
 import { AppTable, TableRow, TableColumn } from "../components/AppTable.js";
 
 export const init = async (param) => {
@@ -10,6 +11,7 @@ export const init = async (param) => {
     { name: "app-root", class: App },
     { name: "app-header", class: Header },
     { name: "page-container", class: PageContainer },
+    { name: "content-loader", class: ContentLoader },
     { name: "app-table", class: AppTable },
     { name: "table-row", class: TableRow },
     { name: "table-column", class: TableColumn },

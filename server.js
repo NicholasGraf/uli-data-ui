@@ -5,7 +5,7 @@
 */
 
 // Server Port
-const port = 8000;
+const port = 8001;
 
 // Startup URL
 const url = `http://localhost:${port}`;

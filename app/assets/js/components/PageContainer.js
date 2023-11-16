@@ -13,9 +13,10 @@ export class PageContainer extends BaseElement {
     app.events.unsubscribe(app.config.events.pageLoaded, this);
   }
   render() {
-    this.innerHTML = "<content-loader></contaner-loader>";
+    this.innerHTML = "<content-loader></content-loader>";
   }
   update(route) {
+    debugger;
     this.id = route.name;
     this.currentPath = route.path;
     if (route.htmlContent) {

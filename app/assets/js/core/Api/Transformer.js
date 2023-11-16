@@ -21,12 +21,12 @@ export class Transformer {
 }
 
 function convertTime(t) {
-  let dateFormatter = new Intl.DateTimeFormat("it-CH"),
-    timeFormatter = new Intl.DateTimeFormat("en-US", {
+  let dateFormatter = new Intl.DateTimeFormat("de-CH"),
+    timeFormatter = new Intl.DateTimeFormat("de-CH", {
       hour: "numeric",
       minute: "numeric",
       second: "numeric",
     });
   let date = new Date(t);
-  return `${dateFormatter.format(date)} ${timeFormatter.format(date)}`;
+  return `${dateFormatter.format(date)} - ${timeFormatter.format(date)}`;
 }

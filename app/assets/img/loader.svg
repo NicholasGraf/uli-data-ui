@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+    <defs>
+        <style>
+            .loader1,
+            .loader2 {
+            fill: none;
+            stroke-miterlimit: 10;
+            stroke-width: 5px;
+            }
+            .loader1 {
+            stroke: #bbb;
+            stroke-opacity: .15;
+            }
+            .loader2 {
+            stroke: #bbb;
+            }
+        </style>
+    </defs>
+    <circle class="loader1" cx="36" cy="36" r="33" />
+    <path class="loader2" d="M14.3,60.9A33,33,0,0,1,36,3"></path>
+</svg>
