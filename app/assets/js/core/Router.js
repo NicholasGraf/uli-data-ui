@@ -43,7 +43,7 @@ export class Router {
       return;
     }
     if (this.currentModule) {
-      this.events.unsubscribe(this.events.pageLoaded, this.currentModule);
+      this.events.unsubscribe(this.config.events.pageLoaded, this.currentModule);
       this.currentModule = null;
     }
     window.history.pushState({ path: path }, path, path);
